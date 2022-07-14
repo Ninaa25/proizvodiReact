@@ -15,7 +15,9 @@ const Pocetna = () => {
 
             <NavBar />
 
-            <ProductsList products={products} />
+            <div className='content'>
+                <ProductsList products={products} />
+            </div>
 
         </div>
     );
