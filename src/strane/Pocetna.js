@@ -1,6 +1,6 @@
 import NavBar from '../komponente/NavBar';
 import ProductsList from '../komponente/ProductsList';
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 
 const Pocetna = () => {
 

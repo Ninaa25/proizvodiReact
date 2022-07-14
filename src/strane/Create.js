@@ -1,5 +1,6 @@
 import NavBar from "../komponente/NavBar";
 import { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 const Create = () => {
 
@@ -40,7 +41,7 @@ const Create = () => {
                     <input type="text" value={body} onChange={bodyHandle} />
                 </div>
 
-                <button type="button" id="btn">Dodaj proizvod</button>
+                <Link to="/message"><button type="button" id="btn">Dodaj proizvod</button></Link>
             </div>
 
         </div>
