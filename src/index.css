@@ -48,3 +48,29 @@
   color: #4dcce6;
   margin-bottom: 8px;
 }
+
+label {
+    color: #4dcce6;
+    margin-right: 5px;
+}
+
+.frm-novi-proizvod{
+  margin-top: 50px;
+}
+
+.element {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+#btn {
+   color: white;
+   background-color: #0f0458;
+   border-radius: 8px;
+   font-size: 18px;
+   padding: 10px 10px;
+}
+
+input {
+  font-size: 20px;
+}
