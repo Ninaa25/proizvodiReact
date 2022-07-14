@@ -1,6 +1,6 @@
 import NavBar from '../komponente/NavBar';
 import ProductsList from '../komponente/ProductsList';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 
 const Pocetna = () => {
 
@@ -10,13 +10,19 @@ const Pocetna = () => {
         { title: 'Naocare', body: 'Za sunce, za vid...', id: 3 }
     ]);
 
+    const deleteProduct = (id) => {
+        const niz = products.filter(product => product.id != id);
+        setProducts(niz);
+    }
+
+
     return (
         <div className='pocetna'>
 
             <NavBar />
 
             <div className='content'>
-                <ProductsList products={products} />
+                <ProductsList products={products} delete={deleteProduct} />
             </div>
 
         </div>

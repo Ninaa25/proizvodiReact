@@ -74,3 +74,8 @@ label {
 input {
   font-size: 20px;
 }
+
+#button-obrisi{
+  color: white;
+  background-color: #0f0458;
+}
